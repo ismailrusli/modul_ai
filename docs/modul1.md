@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# **Modul 1:** Menggunakan Google Colab
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Tujuan Praktikum
+  1. Peserta mampu membuat file Google Colab di Google Drive
+  2. Peserta mampu mengakses file di Google Colab
 
-## Commands
+## Pendahuluan
+Google Colab adalah layanan dari Google yang memungkinkan Anda menulis dan mengeksekusi kode Python langsung di browser Anda, dengan lingkungan yang dilengkapi dengan GPU dan TPU. Ini sangat bermanfaat untuk proyek-proyek yang melibatkan pemrosesan data besar atau pelatihan model *machine learning*.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Membuat file Google Colab di Google Drive
