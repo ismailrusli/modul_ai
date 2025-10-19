@@ -1,1 +1,4 @@
-site_name: My Docs
+site_name: Modul Kecerdasan Buatan
+site_url: https://ismailrusli.github.io/modul_ai
+theme:
+  name: material
