@@ -1,4 +1,4 @@
-# Modul 07: Stratified K-Fold Cross Validation dengan Support Vector Machine (SVM)
+# **Modul 07:** Stratified K-Fold Cross Validation dengan Support Vector Machine (SVM)
 
 ## Tujuan:
 1. Dapat membuat model machine learning menggunakan algoritma Support Vector Machine (SVM)

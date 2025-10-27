@@ -1,4 +1,4 @@
-# Modul 06: Stratified K-Fold Cross Validation dengan K-Nearest Neighbors (KNN)
+# **Modul 06:** Stratified K-Fold Cross Validation dengan K-Nearest Neighbors (KNN)
 
 ## Tujuan:
 1. Dapat membuat model machine learning menggunakan algoritma K-Nearest Neighbors (KNN)

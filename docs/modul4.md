@@ -1,4 +1,4 @@
-# Modul 04: Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal
+# **Modul 04:** Membuat Model Machine Learning Menggunakan Random Forest dengan Data Numerikal dan Kategorikal
 
 ## Tujuan
 

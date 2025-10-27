@@ -1,4 +1,4 @@
-# Modul 02: Membaca Data
+# **Modul 02:** Membaca Data
 
 ## Tujuan
 

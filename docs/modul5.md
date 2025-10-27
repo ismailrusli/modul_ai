@@ -1,4 +1,4 @@
-# Modul 05: Stratified K-Fold Cross Validation
+# **Modul 05:** Stratified K-Fold Cross Validation
 
 ## Tujuan
 

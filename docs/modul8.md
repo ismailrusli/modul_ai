@@ -1,4 +1,4 @@
-# Modul 08: Stratified K-Fold Cross Validation dengan Neural Network (MLP)
+# **Modul 08:** Stratified K-Fold Cross Validation dengan Neural Network (MLP)
 
 ## Tujuan:
 1. Dapat membuat model machine learning menggunakan algoritma Neural Network (Multi-Layer Perceptron)

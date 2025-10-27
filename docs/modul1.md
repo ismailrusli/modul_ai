@@ -1,4 +1,4 @@
-# Modul 01: Menggunakan Google Colab
+# **Modul 01:** Menggunakan Google Colab
 
 ## Tujuan Praktikum
 

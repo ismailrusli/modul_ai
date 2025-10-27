@@ -1,4 +1,4 @@
-# Modul 03: Membuat Model Machine Learning Menggunakan Random Forest
+# **Modul 03:** Membuat Model Machine Learning Menggunakan Random Forest
 
 ## Tujuan
 
