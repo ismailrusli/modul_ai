@@ -151,15 +151,23 @@ plt.show()
 
 ### 1. Perbandingan Kernel SVM
 Bandingkan performa SVM dengan kernel yang berbeda menggunakan 10-fold cross validation:
+
 - Linear kernel: `SVC(kernel='linear', C=1.0)`
+
 - Polynomial kernel: `SVC(kernel='poly', degree=3, C=1.0)`
+
 - RBF kernel: `SVC(kernel='rbf', C=1.0, gamma='scale')`
+
 - Sigmoid kernel: `SVC(kernel='sigmoid', C=1.0, gamma='scale')`
 
 Untuk setiap kernel, tampilkan:
+
 - Tabel perbandingan akurasi, precision, recall, dan F1-score
+
 - Grafik bar chart untuk membandingkan metrik-metrik tersebut
+
 - Waktu training rata-rata
+
 - Confusion matrix untuk kernel dengan performa terbaik
 
 Analisis: Kernel mana yang paling cocok untuk dataset diabetes? Jelaskan mengapa!
@@ -186,13 +194,19 @@ for kernel in kernels:
 
 ### 2. Optimasi Parameter C dan Gamma untuk RBF Kernel
 Parameter C dan gamma sangat mempengaruhi performa SVM dengan RBF kernel. Lakukan grid search untuk menemukan kombinasi terbaik:
+
 - C values: [0.1, 1, 10, 100]
+
 - gamma values: ['scale', 'auto', 0.001, 0.01, 0.1, 1]
 
 Gunakan 5-fold cross validation untuk setiap kombinasi parameter. Tampilkan:
+
 - Heatmap yang menunjukkan akurasi untuk setiap kombinasi C dan gamma
+
 - Parameter optimal yang memberikan akurasi tertinggi
+
 - Confusion matrix untuk model dengan parameter optimal
+
 - Analisis: Apa pengaruh parameter C dan gamma terhadap performa model?
 
 **Petunjuk:**

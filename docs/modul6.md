@@ -133,8 +133,11 @@ plt.show()
 
 ### 1. Optimasi Parameter K
 Buat eksperimen dengan nilai k yang berbeda (k = 3, 5, 7, 9, 11, 15, 21) menggunakan 10-fold cross validation. 
+
 - Tampilkan grafik perbandingan akurasi rata-rata untuk setiap nilai k
+
 - Tentukan nilai k optimal untuk dataset diabetes
+
 - Jelaskan mengapa nilai k tersebut memberikan performa terbaik
 
 **Petunjuk:**
@@ -153,13 +156,19 @@ for k in k_values:
 
 ### 2. Perbandingan dengan Metode Distance
 KNN dapat menggunakan berbagai metode perhitungan jarak. Bandingkan performa model dengan:
+
 - Euclidean distance (default)
+
 - Manhattan distance (metric='manhattan')
+
 - Minkowski distance dengan p=3 (metric='minkowski', p=3)
 
 Gunakan k=5 dan 10-fold cross validation. Tampilkan:
+
 - Tabel perbandingan akurasi, precision, dan recall
+
 - Confusion matrix untuk metode terbaik
+
 - Analisis: metode distance mana yang paling cocok untuk dataset diabetes dan mengapa?
 
 ### 3. Analisis Pengaruh Jumlah Data (Bonus)

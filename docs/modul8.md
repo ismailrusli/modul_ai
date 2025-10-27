@@ -215,41 +215,62 @@ plt.show()
 
 ### 1. Eksplorasi Arsitektur Neural Network
 Bandingkan performa neural network dengan arsitektur yang berbeda menggunakan 10-fold cross validation:
+
 - Shallow network: `hidden_layer_sizes=(32,)`
+
 - Medium network: `hidden_layer_sizes=(64, 32)`
+
 - Deep network: `hidden_layer_sizes=(128, 64, 32)`
+
 - Very deep network: `hidden_layer_sizes=(128, 64, 32, 16)`
 
 Untuk setiap arsitektur, tampilkan:
+
 - Tabel perbandingan akurasi, precision, recall, F1-score, dan waktu training
+
 - Grafik bar chart untuk membandingkan metrik
+
 - Grafik jumlah iterasi hingga konvergen untuk setiap arsitektur
+
 - Confusion matrix untuk arsitektur terbaik
 
 Analisis: 
+
 - Arsitektur mana yang memberikan performa terbaik?
+
 - Apakah arsitektur yang lebih dalam selalu lebih baik? Jelaskan!
+
 - Bagaimana trade-off antara kompleksitas model dan performa?
 
 ### 2. Pengaruh Fungsi Aktivasi dan Optimizer
 Lakukan eksperimen dengan kombinasi fungsi aktivasi dan optimizer yang berbeda:
 
 **Fungsi Aktivasi:**
+
 - ReLU: `activation='relu'`
+
 - Tanh: `activation='tanh'`
+
 - Logistic (Sigmoid): `activation='logistic'`
 
 **Optimizer:**
+
 - Adam: `solver='adam'`
+
 - SGD: `solver='sgd'`
+
 - L-BFGS: `solver='lbfgs'`
 
 Gunakan arsitektur `hidden_layer_sizes=(64, 32)` dan 5-fold cross validation untuk setiap kombinasi.
 
 Tampilkan:
+
 - Heatmap yang menunjukkan akurasi untuk setiap kombinasi aktivasi dan optimizer
+
 - Tabel waktu training untuk setiap kombinasi
+
 - Kombinasi terbaik beserta confusion matrix-nya
+
 - Analisis: Mengapa kombinasi tertentu bekerja lebih baik?
 
 **Petunjuk:**
@@ -276,14 +297,21 @@ Analisis pengaruh regularisasi (parameter alpha) terhadap performa model:
 - Alpha values: [0.00001, 0.0001, 0.001, 0.01, 0.1, 1.0]
 
 Untuk setiap nilai alpha:
+
 1. Latih model dengan 5-fold cross validation
+
 2. Hitung train score dan validation score
+
 3. Plot learning curve yang menunjukkan train vs validation accuracy
 
 Tampilkan:
+
 - Grafik learning curve untuk setiap nilai alpha
+
 - Grafik yang menunjukkan hubungan antara alpha dengan train/validation accuracy
+
 - Identifikasi nilai alpha optimal yang mencegah overfitting
+
 - Analisis: Bagaimana regularisasi mempengaruhi generalisasi model?
 
 **Petunjuk:**
