@@ -40,7 +40,7 @@ Sebuah gambar tulisan tangan dalam MNIST berisi 28 x 28 = 784 piksel yang masing
 ```python
 print(X_train.dtype)
 print(X_train.min())
-print(X_train.maX())
+print(X_train.max())
 print(X_train[0])
 ```
 Jika ingin melihat satu gambar dari MNIST, gunakan perintah berikut.
