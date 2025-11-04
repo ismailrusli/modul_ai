@@ -82,7 +82,7 @@ Setiap piksel bernilai antara 0-255. Dalam perhitungannya, lebih baik menggunaka
 
 ```python
 X_train = X_train / 255
-X_valid = X_valid / 255 
+X_test = X_test / 255 
 
 print(X_train.dtype)
 print(X_train.min())
