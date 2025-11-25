@@ -1,4 +1,4 @@
-# **Modul 09:** Klasifikasi Gambar Dataset MNIST
+# **Modul 09:** Klasifikasi Gambar Dataset MNIST dengan Multi Layer Perceptron (MLP)
 
 ## Tujuan
 

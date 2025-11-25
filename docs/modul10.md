@@ -1,4 +1,4 @@
-# **Modul 10 (CNN):** Klasifikasi Gambar Dataset MNIST dengan Convolutional Neural Network
+# **Modul 10:** Klasifikasi Gambar Dataset MNIST dengan Convolutional Neural Network (CNN)
 
 ## Tujuan
 
@@ -269,15 +269,14 @@ plt.show()
 ## Tugas
 
 1. Lakukan prediksi untuk satu gambar dalam `X_test`, misalnya `X_test[0]`, lalu bandingkan hasilnya dengan `y_test[0]`. Tampilkan gambar yang diprediksi menggunakan matplotlib dan tampilkan probabilitas untuk setiap kelas.
-
 2. Cari di Internet (atau tanya AI) cara untuk menyimpan/meload model ke file sehingga dapat digunakan berulang-ulang tanpa harus training terlebih dahulu.
-
 3. Eksperimen dengan arsitektur CNN yang berbeda:
-   - Tambahkan lebih banyak layer konvolusi
-   - Ubah jumlah filter
-   - Ubah ukuran kernel
-   - Bandingkan akurasi yang dihasilkan
 
-4. Visualisasikan filter/kernel yang dipelajari oleh layer konvolusi pertama untuk melihat fitur apa yang dideteksi oleh CNN.
+    * Tambahkan lebih banyak layer konvolusi
+    * Ubah jumlah filter
+    * Ubah ukuran kernel
+    * Bandingkan akurasi yang dihasilkan
 
-5. Bandingkan waktu training dan akurasi antara model MLP (dari tutorial sebelumnya) dengan model CNN ini. Buat tabel perbandingan hasilnya.
+4. Bandingkan waktu training dan akurasi antara model MLP (dari tutorial sebelumnya) dengan model CNN ini. Buat tabel perbandingan hasilnya.
+
+<!-- 4. Visualisasikan filter/kernel yang dipelajari oleh layer konvolusi pertama untuk melihat fitur apa yang dideteksi oleh CNN. -->
