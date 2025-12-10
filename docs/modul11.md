@@ -1,9 +1,8 @@
 # Modul 11: Pengolahan Citra Digital
 
-Di semua kode dalam tutorial ini, digunakan gambar berikut.
+Dalam tutorial ini, digunakan gambar berikut. Klik kanan dan "Save Image As ..." cat.jpg.
 
-![cat.jpg](https://github.com/ismailrusli/grafika_citra/blob/main/cat.jpg)
-
+![cat.jpg](https://raw.githubusercontent.com/ismailrusli/grafika_citra/refs/heads/main/cat.jpg)
 
 ## Bagian 1: Pengolahan Dasar Citra Digital
 
