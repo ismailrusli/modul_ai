@@ -21,6 +21,8 @@ nav:
   - modul8.md
   - modul9.md
   - modul10.md
+  - modul11.md
+  - modul12.md
       
 markdown_extensions:
   - pymdownx.highlight:
